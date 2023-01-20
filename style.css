@@ -173,6 +173,10 @@ right: 30%;
 }
 
 @media (max-width: 385px) {
+    
+    .title-image{
+        padding-top: 2px;
+    }
 
 .button{
 padding: 0px 80px;
