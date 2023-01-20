@@ -1,4 +1,4 @@
-Kibody{
+body{
     font-family: "Montserrat";
 }
 
@@ -172,18 +172,46 @@ right: 30%;
     }
 }
 
-@media (min-width: 350px) and (max-width: 732px) {
-    
-    .title-image{
-        padding-top: 20px;
-    }
+@media (max-width: 385px) {
 
 .button{
-padding: 8px 90px;
-}
-    #pricing{
-        padding: 30px;
-    text-align: center;
-    }   
+padding: 0px 20px;
 }
 
+}
+
+@media (max-width: 1028px) {
+    #title{
+     text-align: center;   
+    }
+    
+    .title-image{
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (min-width: 350px) and (max-width: 732px) {
+
+.button{
+padding: 1px 20px;
+}
+
+}
+
+@media (min-width: 733px) and (max-width: 1060px){
+    .button{
+        padding: 2px 70px;
+}
+}
+@media  (min-width: 1061px) and (max-width: 1250px){
+    .button{
+        padding: 4px 70px;
+    }
+}
+@media  (min-width: 1250px) and (max-width: 1600px){
+    .button{
+        padding: 5px 100px;
+    }
+}
