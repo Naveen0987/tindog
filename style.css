@@ -174,9 +174,18 @@ right: 30%;
 
 
      
-  @media only screen and (max-width: 768px){ 
-        .button{
-padding: 5px 90px
+  media (min-width: 385px) (max-width: 732px) {
+    
+    .title-image{
+        padding-top: 20px;
+    }
 
+.button{
+padding: 8px 90px;
 }
+    #pricing{
+        padding: 30px;
+    text-align: center;
+    }   
 }
+
