@@ -179,13 +179,17 @@ right: 30%;
     }
 
 .button{
-padding: 08px 90px;
+padding: 8px 90px;
 }
     #pricing{
         padding: 30px;
     text-align: center;
-    }     
-        
-        
+    }   
+}  
+     
+  @media only screen and (max-width: 768px){ 
+        .button{
+padding: 8px 120px
 
+}
 }
