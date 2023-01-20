@@ -172,3 +172,10 @@ right: 30%;
     }
 }
 
+@media (max-width: 358px) {
+
+.button{
+padding: 0px 20px;
+}
+
+}
