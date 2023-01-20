@@ -175,11 +175,11 @@ right: 30%;
 @media (max-width: 385px) {
     
     .title-image{
-        padding-top: 15px;
+        padding-top: 20px;
     }
 
 .button{
-padding: 5px 90px;
+padding: 10px 90px;
 }
     #pricing{
         padding: 30px;
